@@ -144,3 +144,6 @@ LOGOUT_REDIRECT_URL = 'home'
 
 # Template pack for crispy-forms
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# Email backend for outputting the email text to command line console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
